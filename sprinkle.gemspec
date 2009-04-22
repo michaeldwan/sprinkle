@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = %q{sprinkle}
-  s.version = "0.2.2"
+  s.version = "0.2.3"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Marcus Crafter", "Mitchell Hashimoto", "Michael Dwan"]
@@ -46,7 +46,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--main", "README.txt"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{sprinkle}
-  s.rubygems_version = %q{1.3.1}
+  s.rubygems_version = %q{1.3.0}
   s.summary = %q{Ruby DSL based software provisioning tool}
 
   if s.respond_to? :specification_version then
