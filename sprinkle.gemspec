@@ -3,11 +3,11 @@ Gem::Specification.new do |s|
   s.version = "0.2.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Marcus Crafter", "Mitchell Hashimoto"]
-  s.date = %q{2008-11-25}
+  s.authors = ["Marcus Crafter", "Mitchell Hashimoto", "Michael Dwan"]
+  s.date = %q{2009-04-22}
   s.default_executable = %q{sprinkle}
   s.description = %q{Ruby DSL based software provisioning tool}
-  s.email = ["crafterm@redartisan.com", "mitchell.hashimoto@citrusbyte.com"]
+  s.email = ["crafterm@redartisan.com", "mitchell.hashimoto@citrusbyte.com", "mpdwan@gmail.com"]
   s.executables = ["sprinkle"]
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.txt"]
   s.files = ["CREDITS", "History.txt", "MIT-LICENSE", "Manifest.txt", "README.txt", "Rakefile", "bin/sprinkle",
@@ -30,7 +30,8 @@ Gem::Specification.new do |s|
              "lib/sprinkle/package.rb", "lib/sprinkle/policy.rb", "lib/sprinkle/script.rb", "lib/sprinkle/verifiers/directory.rb", 
              "lib/sprinkle/verifiers/executable.rb", "lib/sprinkle/verifiers/file.rb", "lib/sprinkle/verifiers/process.rb", 
              "lib/sprinkle/verifiers/ruby.rb", "lib/sprinkle/verifiers/symlink.rb", "lib/sprinkle/verify.rb", "lib/sprinkle/version.rb",
-             "script/destroy", "script/generate", "sprinkle.gemspec", "tasks/deployment.rake", "tasks/environment.rake", "tasks/rspec.rake"]
+             "script/destroy", "script/generate", "sprinkle.gemspec", "tasks/deployment.rake", "tasks/environment.rake", "tasks/rspec.rake",
+             "lib/sprinkle/installers/custom.rb"]
               
   s.test_files = ["spec/spec.opts", "spec/spec_helper.rb", "spec/sprinkle/actors/capistrano_spec.rb",
                   "spec/sprinkle/actors/local_spec.rb", "spec/sprinkle/configurable_spec.rb", "spec/sprinkle/deployment_spec.rb",
@@ -45,7 +46,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--main", "README.txt"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{sprinkle}
-  s.rubygems_version = %q{1.3.0}
+  s.rubygems_version = %q{1.3.1}
   s.summary = %q{Ruby DSL based software provisioning tool}
 
   if s.respond_to? :specification_version then
